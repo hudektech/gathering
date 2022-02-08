@@ -7,12 +7,12 @@ for (let atag of atags) {
 }
 
 // add in print button
-let h1 = document.querySelector("#online-help");
-h1.innerHTML += `  <button class="my-btn" onclick="window.print();return false;">
-    <i class="fas fa-print"></i> Print
-  </button>`;
+// let h1 = document.querySelector("#online-help");
+// h1.innerHTML += `  <button class="my-btn" onclick="window.print();return false;">
+//     <i class="fas fa-print"></i> Print
+//   </button>`;
 
-h1.classList.add("my-btn-flex");
+// h1.classList.add("my-btn-flex");
 
 // handle footer
 let footer = document.querySelector(".gist-meta");
